@@ -1,7 +1,7 @@
 import numpy as np
 
 
-class AdalineDG(object):
+class AdalineGD(object):
     def __init__(self, eta=0.01, n_iter=50):
         self.eta = eta
         self.n_iter = n_iter
@@ -22,7 +22,7 @@ class AdalineDG(object):
         return np.dot(X, self.w_[1:]) + self.w_[0]
 
     def activation(self, X):
-        return slef.net_input(X)
+        return self.net_input(X)
 
     def predict(self, X):
         return np.where(self.activation(X) >= 0.0, 1, -1)
