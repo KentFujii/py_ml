@@ -24,7 +24,6 @@ class AdalineSGD(object):
             self.cost_.append(avg_cost)
         return self
 
-
     def partial_fit(self, X, y):
         if not self.w_initialized:
             self._initialize_weights(X.shape[1])
