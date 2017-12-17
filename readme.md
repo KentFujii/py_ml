@@ -1,8 +1,8 @@
 # pmlb
 
-'''
+```
 jupyter notebook
-'''
+```
 
 # chapter
 
@@ -13,3 +13,5 @@ jupyter notebook
 [preprocessing](https://github.com/rasbt/python-machine-learning-book/blob/master/code/ch04/ch04.ipynb)
 
 [dimensionality_reduction](https://github.com/rasbt/python-machine-learning-book/blob/master/code/ch05/ch05.ipynb)
+
+[hyperparameter_tuning](https://github.com/rasbt/python-machine-learning-book/blob/master/code/ch06/ch06.ipynb)
