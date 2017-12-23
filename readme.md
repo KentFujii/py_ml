@@ -15,3 +15,7 @@ jupyter notebook
 [dimensionality_reduction](https://github.com/rasbt/python-machine-learning-book/blob/master/code/ch05/ch05.ipynb)
 
 [hyperparameter_tuning](https://github.com/rasbt/python-machine-learning-book/blob/master/code/ch06/ch06.ipynb)
+
+# 参考文献
+
+[hirai.me](http://hirai.me/notes_pyml.html#)
