@@ -19,3 +19,4 @@ jupyter notebook
 # 参考文献
 
 [hirai.me](http://hirai.me/notes_pyml.html#)
+[データサイエンスプロジェクトのディレクトリ構成どうするか問題](https://takuti.me/note/data-science-project-structure/)
