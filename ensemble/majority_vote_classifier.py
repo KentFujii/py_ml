@@ -8,6 +8,7 @@ import numpy as np
 import operator
 
 
+sklearnの分類器と同じ機能を手に入れるためにBaseEstimatorとClassifierMixinを継承する
 class MajorityVoteClassifier(BaseEstimator, ClassifierMixin):
     def __init__(self, classifiers, vote='classlabel', weights=None):
         self.classifiers = classifiers
@@ -54,12 +55,14 @@ class MajorityVoteClassifier(BaseEstimator, ClassifierMixin):
         return maj_vote
 
     def predict_proba(self, X):
+        # 個々の分類器のpredict_proba()の加重平均を計算する
         probas = np.asarray([clf.predict_proba(X)
                              for clf in self.classifiers_])
         avg_proba = np.average(probas, axis=0, weights=self.weights)
         return avg_proba
 
     def get_params(self, deep=True):
+        # GridSearchの実行時に分類器のパラメータ名を取得
         if not deep:
             return super(MajorityVoteClassifier, self).get_params(deep=False)
         else:
