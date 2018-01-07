@@ -18,6 +18,10 @@ jupyter notebook
 
 [ensemble learning](https://github.com/rasbt/python-machine-learning-book/blob/master/code/ch07/ch07.ipynb)
 
+[Sentiment Analysis](https://github.com/rasbt/python-machine-learning-book/blob/master/code/ch08/ch08.ipynb)
+
+[web_app](https://github.com/rasbt/python-machine-learning-book/blob/master/code/ch09/ch09.ipynb)
+
 # 参考文献
 
 [hirai.me](http://hirai.me/notes_pyml.html#)

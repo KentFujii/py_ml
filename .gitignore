@@ -2,3 +2,6 @@ __pycache__
 .ipynb_checkpoints/
 env/
 .vscode/
+sentiment_analysis/aclImdb_v1.tar.gz
+sentiment_analysis/aclImdb/
+web_app/movieclassifier/pkl_objects/
