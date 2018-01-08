@@ -22,6 +22,8 @@ jupyter notebook
 
 [web_app](https://github.com/rasbt/python-machine-learning-book/blob/master/code/ch09/ch09.ipynb)
 
+[regression_analysis](https://github.com/rasbt/python-machine-learning-book/blob/master/code/ch10/ch10.ipynb)
+
 # 参考文献
 
 [hirai.me](http://hirai.me/notes_pyml.html#)
