@@ -24,7 +24,7 @@ jupyter notebook
 
 [regression_analysis](https://github.com/rasbt/python-machine-learning-book/blob/master/code/ch10/ch10.ipynb)
 
-[clustering_analysis](https://github.com/rasbt/python-machine-learning-book/tree/master/code/ch12)
+[clustering_analysis](https://github.com/rasbt/python-machine-learning-book/tree/master/code/ch11/ch11.ipynb)
 
 # 参考文献
 
