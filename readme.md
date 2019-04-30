@@ -1,10 +1,9 @@
-# pmlb
+## py_ml
 
 ```
-jupyter notebook
+docker-compose up -d
 ```
-
-# chapter
+## chapter
 
 [algorithm](https://github.com/rasbt/python-machine-learning-book/blob/master/code/ch02/ch02.ipynb)
 
