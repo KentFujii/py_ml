@@ -8,5 +8,5 @@ scipy==1.0.0
 graphviz==0.8.1
 pydotplus==2.0.2
 pyprind==2.11.1
-nltk==3.2.5
+nltk==3.4.5
 seaborn==0.8.1
